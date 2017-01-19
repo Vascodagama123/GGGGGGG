@@ -1,9 +1,3 @@
-program prg;
-
-// 64 bitowy generator pseudolosowy
-//---------------------------------
-function Losuj(a,b : qword) : qword;
-
 var w : qword;
     i : integer;
 begin
