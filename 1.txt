@@ -1,6 +1,5 @@
 void Sortowanie( int tab[], int left, int right )
 {
-    int i = left;
     int j = right;
     int x = tab[( left + right ) / 2 ];
     do
