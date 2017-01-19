@@ -6,9 +6,6 @@ begin
     w := w shl 8;
     w := w and random(256);
   end;
-  Losuj := a + (w mod (b - a));
-end;
-
 // Funkcja oblicza NWD
 //--------------------
 function NWD(a,b : qword) : qword;
